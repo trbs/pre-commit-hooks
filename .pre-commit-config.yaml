@@ -1,0 +1,23 @@
+-   repo: git://github.com/pre-commit/pre-commit-hooks
+    sha: 5edf945ca57abe10a8f090f18e575eabb6a9585a
+    hooks:
+    -   id: trailing-whitespace
+    -   id: flake8
+    -   id: check-added-large-files
+        args: ['--maxkb=1024']
+    -   id: check-ast
+    -   id: check-case-conflict
+    -   id: check-docstring-first
+    -   id: check-json
+    -   id: check-merge-conflict
+    -   id: check-xml
+    -   id: check-yaml
+    -   id: debug-statements
+    -   id: detect-private-key
+    -   id: end-of-file-fixer
+    -   id: fix-encoding-pragma
+    -   id: name-tests-test
+-   repo: git://github.com/Lucas-C/pre-commit-hooks.git
+    sha: 0b2424545a1528a03e250fe763856208d10cef3b
+    hooks:
+    -   id: forbid-crlf

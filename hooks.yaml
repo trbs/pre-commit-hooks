@@ -1,0 +1,6 @@
+-   id: forbid-executables
+    name: Executable bit checker
+    description: "Forbid files that are executable to be committed"
+    entry: forbid_executables
+    language: python
+    files: ''
