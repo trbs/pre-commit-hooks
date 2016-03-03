@@ -33,7 +33,7 @@ setup(
     install_requires=install_requires,
     entry_points={
         'console_scripts': [
-            'forbid_executables = pre_commit_hooks.forbid_executables:main',
+            'forbid_executables = pre_commit_hooks_trbs.forbid_executables:main',
         ],
     },
 )
