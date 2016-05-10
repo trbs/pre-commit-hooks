@@ -10,6 +10,12 @@
     entry: forbid_group_writable
     language: python
     files: ''
+-   id: other-writable
+    name: Check if files or directories are other writable
+    description: "Forbid files that are other writable to be committed"
+    entry: forbid_other_writable
+    language: python
+    files: ''
 -   id: flake8
     name: Flake8
     description: This hook runs flake8 (with radon support).

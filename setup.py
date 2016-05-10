@@ -38,6 +38,7 @@ setup(
         'console_scripts': [
             'forbid_executables = pre_commit_hooks_trbs.forbid_executables:main',
             'forbid_group_writable = pre_commit_hooks_trbs.forbid_group_writable:main',
+            'forbid_other_writable = pre_commit_hooks_trbs.forbid_other_writable:main',
         ],
     },
 )
