@@ -4,3 +4,9 @@
     entry: forbid_executables
     language: python
     files: ''
+-   id: flake8
+    name: Flake8
+    description: This hook runs flake8 (with radon support).
+    entry: flake8
+    language: python
+    files: \.py$

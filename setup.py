@@ -3,7 +3,10 @@ import sys
 from setuptools import find_packages
 from setuptools import setup
 
-install_requires = []
+install_requires = [
+    'flake8!=2.5.3',
+    'radon',
+]
 if sys.version_info < (2, 7):
     install_requires.append('argparse')
 
