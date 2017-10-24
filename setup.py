@@ -4,7 +4,7 @@ from setuptools import find_packages
 from setuptools import setup
 
 install_requires = [
-    'flake8!=2.5.3',
+    'flake8>=3.5.0',
     'radon',
 ]
 if sys.version_info < (2, 7):
@@ -15,7 +15,7 @@ setup(
     name='pre-commit-hooks-trbs',
     description='pre-commit hooks from trbs',
     url='https://github.com/trbs/pre-commit-hooks-trbs',
-    version='1.2.0',
+    version='1.2.1',
 
     author='Trbs',
     author_email='trbs@trbs.net',
