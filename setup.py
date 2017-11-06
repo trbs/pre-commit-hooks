@@ -16,7 +16,7 @@ setup(
     name='pre-commit-hooks-trbs',
     description='pre-commit hooks from trbs',
     url='https://github.com/trbs/pre-commit-hooks-trbs',
-    version='1.2.3',
+    version='1.2.4',
 
     author='Trbs',
     author_email='trbs@trbs.net',
