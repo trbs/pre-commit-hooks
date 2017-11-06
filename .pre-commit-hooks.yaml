@@ -28,4 +28,4 @@
     language: python
     language_version: python3
     files: \.py$
-    args: [--disallow-untyped-defs, --ignore-missing-imports]
+    args: [--check-untyped-defs, --ignore-missing-imports]
