@@ -22,3 +22,10 @@
     entry: flake8
     language: python
     files: \.py$
+-   id: mypy
+    name: mypy
+    entry: python3 -m mypy
+    language: python
+    language_version: python3
+    files: \.py$
+    args: [--disallow-untyped-defs, --ignore-missing-imports]
